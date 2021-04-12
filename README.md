@@ -64,7 +64,7 @@ keys.add("test2");
 MultipleKey<String> key = mapFactory.createKey(keys);
 ```
 
-If you want to get all map keys without getting a collection of "MultipleKey" you can call "allKeySet()" method.
+If you want to get all map keys without getting a collection of "MultipleKey" you can use "allKeySet()" method.
 
 ```JAVA
 Set<String> keys = map.allKeySet();
